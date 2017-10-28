@@ -150,24 +150,32 @@ footer{
 	height: 150px;
 }
 
+.logocontainer{
+/*	border-style: solid;
+	border-color: red;*/
+	position: relative;
+	margin: auto;
+}
+
 .logoleft{
 	width: 60px;
 	height: 60px;
 	position: absolute;
-	left:30px;
+	left:0;
 }
 
 .logomiddle{
 	width: 60px;
 	height: 60px;
-	position:absolute;
-	left: 39%;
+	display: block;
+	margin: 0 auto;
 }
 
 .logoright{
+	padding: 3px;
 	width: 54px;
 	height: 54px;
+	margin-left: 0;
 	position: absolute;
-	right: 30px;
-	top: 106px;
+	right: 0;
 }
