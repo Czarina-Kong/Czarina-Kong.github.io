@@ -119,12 +119,13 @@ footer{
 
 /*portfolio links*/
 .portfoliolink{
-/*	border-style: solid;
-	border-color:red;*/
 	position: relative;
 	float: left;
-	padding: 0px 7px 0px 7px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.leftpadding{
+	padding-left: 30px;
 }
 
 .portfoliodescription{
